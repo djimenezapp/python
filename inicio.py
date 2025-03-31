@@ -1,7 +1,12 @@
 # Daniel Jiménez Alcantar
 # Programación en python#
 print("Hola mundo");
-#Class
+
 class Paciente:
-    nombre="Daniel";
+    nombre="Daniel Jimenez";
     edad=38
+
+paciente=Paciente
+
+print(paciente.nombre)
+print(paciente.edad)
